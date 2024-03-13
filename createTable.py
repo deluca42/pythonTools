@@ -25,7 +25,7 @@ def generate_create_table_script(csv_line, table_name='your_table'):
     return create_script
 
 # Example CSV line
-csv_line = "636582,,ARMANI,GA ARMANI NEW CODE REFILLABLE EDT 50ML,1,,,,,,353.5,359.8928,359.9,0,359.9,,,0,,33030020,2000800,3614273636582,0.249,50,5.4,5.3,9.8,549,559"
+csv_line = "636582,,ARMANZ,GA ARMANZ NEW EDT 50ML,1,,,,,,353.5,359.8928,359.9,0,359.9,,,0,,33030020,2000800,3614273636582,0.249,50,5.4,5.3,9.8,549,559"
 
 # Generate CREATE TABLE script
 script = generate_create_table_script(csv_line)
