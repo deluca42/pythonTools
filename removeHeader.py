@@ -1,5 +1,6 @@
 import csv
 
+
 def remove_header(input_csv, output_csv):
     with open(input_csv, 'r', newline='', encoding='utf-8') as infile, open(output_csv, 'w', newline='', encoding='utf-8') as outfile:
         reader = csv.reader(infile)
